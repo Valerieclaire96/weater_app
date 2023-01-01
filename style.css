@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Indie+Flower&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://source.unsplash.com/1600x900/?Landscape");
+  font-size: 120%;
+}
+.card {
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgba(241, 241, 242, 0.418) 0.1%,
+    rgba(224, 226, 228, 0.603) 100.2%
+  );
+  padding: 2em;
+  border-radius: 30px;
+  height: 260px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+  font-family: "Chivo Mono", monospace;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 2.5em;
+  width: 2.5em;
+  outline: none;
+  height: 44px;
+  width: 44px;
+  background: #7c7c7cc4;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background: #7c7c7c62;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7cc4;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100%-100px);
+}
+h1.temp {
+  margin: 0;
+}
+.description {
+    text-transform: capitalize;
+}
